@@ -1,0 +1,6 @@
+version: '1'
+services:
+  test_container:
+    image: "chat"
+    ports:
+      - "5002:5002"
